@@ -1,7 +1,21 @@
 # MotionCapturing
 **Make 3D modeled character imitating user's motion**
 
+# What we need
+
+## #1 Motion Tracking
+
 ![image](Main.png)
+
+## #2 3D Modeling
+
+![image](02.jpg)
+
+## #3 Real-time render-able environment
+
+![image](01.jpg)
+
+
 
 ## Reference
 
@@ -9,5 +23,9 @@
 
 [딥러닝을 이용한 Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-2d-guide/)  
 
+[엔비디아 - real-time ray tracing and AI-based pose estimation](https://blogs.nvidia.com/blog/2019/07/30/nvidia-rtx-apollo-11-demo/?ncid=so-you-p3-97929)  
 
+[오큘러스 - hand-tracking in VR](https://www.youtube.com/watch?v=hPIs-h9uevM&feature=youtu.be)  
+
+추가해주세요 ㅇㅅㅇ
 
