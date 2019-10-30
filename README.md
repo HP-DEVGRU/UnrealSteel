@@ -9,7 +9,7 @@
 
 ## #1 Motion Tracking
 
-![image](03.jpg)
+<img src="03.jpg" alt="image" style="zoom:150%;" />
 
 ## #2 3D Modeling
 
