@@ -1,19 +1,23 @@
-# MotionCapturing
-**Make 3D modeled character imitating user's motion**
+# Unreal Steel
+**Just like REAL STEEL, Make 3D modeled character imitating user's motion using Unreal Engine**
+
+![image](main.jpg)
+
+![image](main2.jpg)
 
 # What we need
 
 ## #1 Motion Tracking
 
-![image](Main.png)
+![image](03.jpg)
 
 ## #2 3D Modeling
 
-![image](02.jpg)
+<img src="02.jpg" alt="image" style="zoom:150%;" />
 
 ## #3 Real-time render-able environment
 
-![image](01.jpg)
+<img src="01.jpg" alt="image" style="zoom:150%;" />
 
 
 
@@ -29,7 +33,9 @@
     
 [MPII Human Pose Dataset - 관절 주석이 달린 25,000개 이미지 데이터셋](http://human-pose.mpi-inf.mpg.de/)  
 
+[페이스북 - Full body ar with mask R-CNN](https://research.fb.com/enabling-full-body-ar-with-mask-r-cnn2go/), [자료영상](https://www.facebook.com/groups/BioAI/permalink/399762017292196?sfns=mo)  
 
+[PoseTrack Dataset - MPII + 비디오 데이터셋](https://eehoeskrap.tistory.com/341)  
 
 추가해주세요 ㅇㅅㅇ
 
