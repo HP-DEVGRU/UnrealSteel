@@ -13,11 +13,11 @@
 
 ## #2 3D Modeling
 
-<img src="02.jpg" alt="image" style="zoom:150%;" />
+<img src="02.jpg" alt="image" style="zoom:200%;" />
 
 ## #3 Real-time render-able environment
 
-<img src="01.jpg" alt="image" style="zoom:150%;" />
+<img src="01.jpg" alt="image" style="zoom:200%;" />
 
 
 
