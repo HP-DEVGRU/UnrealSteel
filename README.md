@@ -37,7 +37,9 @@
 
 [엔비디아 - real-time ray tracing and AI-based pose estimation](https://blogs.nvidia.com/blog/2019/07/30/nvidia-rtx-apollo-11-demo/?ncid=so-you-p3-97929)  
 
-[딥러닝을 이용한 Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-2d-guide/)  
+[딥러닝을 이용한 2D Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-2d-guide/)  
+
+[딥러닝을 이용한 3D Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-3d-guide/)  
 
 [페이스북 - Full body ar with mask R-CNN](https://research.fb.com/enabling-full-body-ar-with-mask-r-cnn2go/)  
 
