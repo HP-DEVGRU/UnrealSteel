@@ -35,7 +35,9 @@
 
 [페이스북 - Full body ar with mask R-CNN](https://research.fb.com/enabling-full-body-ar-with-mask-r-cnn2go/), [자료영상](https://www.facebook.com/groups/BioAI/permalink/399762017292196?sfns=mo)  
 
-[PoseTrack Dataset - MPII + 비디오 데이터셋](https://eehoeskrap.tistory.com/341)  
+[PoseTrack Dataset - MPII + 비디오 데이터셋](https://eehoeskrap.tistory.com/341)     
+    
+[State-of-art table for Pose Estimation on MPII Human Pose](https://paperswithcode.com/sota/pose-estimation-on-mpii-human-pose)
 
 추가해주세요 ㅇㅅㅇ
 
