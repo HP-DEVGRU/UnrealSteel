@@ -19,7 +19,33 @@
 
 <img src="01.jpg" alt="image" style="zoom:200%;" />
 
+　  
 
+## Result
+
+### First Hackerthon( 11/01 ~ 11/02 )
+
+논문 리딩 및 관련 분야 지식 습득
+
+* A simple yet effective baseline for 3d human pose estimation
+* Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image
+* Simple Baselines for Human Pose Estimation and Tracking
+* 딥러닝을 이용한 2D, 3D Human Pose Estimation 가이드
+
+개발 방향 설정
+
+* 2D Pose estimation -> 3D transfer -> Predict 3D Pose estimation
+* 3D Joint point detect -> Synchronize with modeled character on Unreal Engine
+* 2D Pose estimation : Tensorflow / PoseNET
+* 3D Transfer : A simple yet effective baseline for 3d human pose estimation
+
+개발 계획
+
+* (11/05) 팀빌딩
+* (11/06) 팀 회의 및 개발 방향 재설정
+* (11/08) 2차해커톤
+
+　  
 
 ## Reference
 
