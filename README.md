@@ -71,6 +71,8 @@
 
 [Lifting-from-the-Deep-release](https://github.com/DenisTome/Lifting-from-the-Deep-release)  
 
+[3D Pose Estimation - output fixed](https://github.com/ArashHosseini/3d-pose-baseline)
+
 　  
 
 ### 데이터셋
