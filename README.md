@@ -43,9 +43,13 @@
 
 [페이스북 - Full body ar with mask R-CNN](https://research.fb.com/enabling-full-body-ar-with-mask-r-cnn2go/)  
 
+[OpenPose + 3D Pose Baseline](http://akasuku.blog.jp/archives/73745862.html)  
+
 　  
 
 ### 영상
+
+[OpenPose + 3D Pose Baseline](https://www.youtube.com/watch?v=8kT-KFkG5dE)  
 
 [오큘러스 - hand-tracking in VR](https://www.youtube.com/watch?v=hPIs-h9uevM&feature=youtu.be)  
 
@@ -57,11 +61,15 @@
 
 ### 깃허브
 
+[**Openpose : 2D & 3D pose, face, hand and foot estimation**](https://github.com/CMU-Perceptual-Computing-Lab/openpose#output)  
+
 [마이크로소프트 - multiview-human-pose-estimation-pytorch](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)  
 
-[3d pose baseline](https://github.com/una-dinosauria/3d-pose-baseline)  
+[3D Pose Baseline](https://github.com/una-dinosauria/3d-pose-baseline)  
 
 [3D Pose Estimation](https://github.com/llSourcell/3D_Pose_Estimation)  
+
+[Lifting-from-the-Deep-release](https://github.com/DenisTome/Lifting-from-the-Deep-release)  
 
 　  
 
