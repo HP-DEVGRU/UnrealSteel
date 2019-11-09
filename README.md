@@ -62,7 +62,7 @@
 
 * GALAXY Note 10 - Google ARCore - Unreal Engine 연동
 
-  <img src="AR1.png" alt="image" style="zoom:50%;" /><img src="AR2.png" alt="image" style="zoom:50%;" />  
+  <img src="AR1.png" alt="image" style="zoom:50%;" /> 
 
 캐릭터 3D 모델링
 
