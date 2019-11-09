@@ -47,6 +47,73 @@
 
 　  
 
+### Second Hackerthon( 11/08 ~ 11/09 )
+
+게임 엔진 입문
+
+* 언리얼 엔진 튜토리얼 영상 
+
+  * 차근차근 알아보는 언리얼 엔진
+  * 초보를 위한 언리얼 엔진 4 강좌
+
+* 언리얼 엔진 tools 사용법
+
+* 블루프린트의 사용
+
+* GALAXY Note 10 - Google ARCore - Unreal Engine 연동
+
+  <img src="AR1.png" alt="image" style="zoom:50%;" /><img src="AR2.png" alt="image" style="zoom:50%;" />  
+
+캐릭터 3D 모델링
+
+* 라이노를 이용한 캐릭터 '고고' 모델링
+
+* 라이노 - 언리얼 엔진 간의 Format transformation ( Unreal Datasmith )
+
+  ![image](Modelling.png)
+
+Pose Estimation 모델 Fitting by Tensorflow2.0
+
+* 2D Joint coordinates -> 3D Joint coordinates
+* Structure
+  * Linear 1024
+  * Batch normalization
+  * RELU
+  * Dropout 0.5
+  * Linear 1024
+  * Batch normalization
+  * RELU
+  * Dropout 0.5
+* Total Accuracy : 0.87
+* represented as **3D Camera Coordinate**, which is **zero-centered on hip joint**
+
+프레젠테이션 준비
+
+* 첫번째장 : 인트로 / 조이름, 프로젝트 네임, 조원의 정보
+
+* 두번째장 : 기존 방법과의 비교 사진
+
+* 세번째장 : 기술 세부 설명 (흐름도)
+
+* 네번째장 : 사업 확장성, 적용 가능 시장 소개 및 기대효과
+
+* 마지막장 : 마무리 인사
+
+  ![Image](Process.png)
+
+개발 방향 재설정
+
+* Export from Google AR plug-in (ARCore) to Tensorflow model
+* Adjust 3D Joint Coordinates as World coordinate from Camera coordinates
+* Transformat Rhino Model to Unreal Engine Using Datasmith
+
+개발 계획
+
+* (11/12) 코드페어 신청서 제출
+* (11/15) 3차 해커톤
+
+　  
+
 ## Reference
 
 ### 논문
