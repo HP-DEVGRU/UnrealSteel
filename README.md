@@ -104,7 +104,16 @@ Pose Estimation 모델 Fitting by Tensorflow2.0
 개발 방향 재설정
 
 * Export from Google AR plug-in (ARCore) to Tensorflow model
+
 * Adjust 3D Joint Coordinates as World coordinate from Camera coordinates
+
+  (+ How can we transfer from Phone -> ARCore -> Tensorflow -> Unreal Engine -> ARCore -> Phone?)
+
+  * Use Maya or Motion Builder : Maya and Motion Builder support Python scripts
+    * Phone -> Maya or MoBu (Tensorflow + Animation) -> Unreal Engine Live link -> ARCore -> Phone
+  * Use just Unreal Engine : Unreal Engine also supports not only c#, but also python
+    * Phone -> ARCore -> Unreal Engine (Tensorflow + Animation + Synthesize) -> ARCore -> Phone
+
 * Transformat Rhino Model to Unreal Engine Using Datasmith
 
 개발 계획
