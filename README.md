@@ -147,6 +147,10 @@ Pose Estimation 모델 Fitting by Tensorflow2.0
 
 [OpenPose + 3D Pose Baseline](http://akasuku.blog.jp/archives/73745862.html)  
 
+[MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
+
+
+
 　  
 
 ### 영상
