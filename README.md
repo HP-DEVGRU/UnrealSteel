@@ -49,7 +49,7 @@
 
 ### Second Hackerthon( 11/08 ~ 11/09 )
 
-게임 엔진 입문
+#### 게임 엔진 입문
 
 * 언리얼 엔진 튜토리얼 영상 
 
@@ -64,7 +64,7 @@
 
   <img src="AR1.png" alt="image" style="zoom:50%;" /> 
 
-캐릭터 3D 모델링
+#### 캐릭터 3D 모델링
 
 * 라이노를 이용한 캐릭터 '고고' 모델링
 
@@ -72,7 +72,7 @@
 
   ![image](Modelling.png)
 
-Pose Estimation 모델 Fitting by Tensorflow2.0
+#### Pose Estimation 모델 Fitting by Tensorflow2.0
 
 * 2D Joint coordinates -> 3D Joint coordinates
 * Structure
@@ -87,7 +87,7 @@ Pose Estimation 모델 Fitting by Tensorflow2.0
 * Total Accuracy : 0.87
 * represented as **3D Camera Coordinate**, which is **zero-centered on hip joint**
 
-프레젠테이션 준비
+#### 프레젠테이션 준비
 
 * 첫번째장 : 인트로 / 조이름, 프로젝트 네임, 조원의 정보
 
@@ -101,7 +101,7 @@ Pose Estimation 모델 Fitting by Tensorflow2.0
 
   ![Image](Process.png)
 
-개발 방향 재설정
+#### 개발 방향 재설정
 
 * Export from Google AR plug-in (ARCore) to Tensorflow model
 
@@ -116,7 +116,7 @@ Pose Estimation 모델 Fitting by Tensorflow2.0
 
 * Transformat Rhino Model to Unreal Engine Using Datasmith
 
-개발 계획
+#### 개발 계획
 
 * (11/12) 코드페어 신청서 제출
 * (11/15) 3차 해커톤
