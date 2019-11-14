@@ -109,17 +109,17 @@
 
   (+ How can we transfer from Phone -> ARCore -> Tensorflow -> Unreal Engine -> ARCore -> Phone?)
 
-  * Use Maya or Motion Builder : Maya and Motion Builder support Python scripts
+  * Use Maya or Motion Builder : Maya and Motion Builder support Python scripts  
     * Phone -> Maya or MoBu (Tensorflow + Animation) -> Unreal Engine Live link -> ARCore -> Phone
-  * Use just Unreal Engine : Unreal Engine also supports not only c#, but also python
+  * Use just Unreal Engine : Unreal Engine also supports not only c#, but also python  
     * Phone -> ARCore -> Unreal Engine (Tensorflow + Animation + Synthesize) -> ARCore -> Phone
 
 * Transformat Rhino Model to Unreal Engine Using Datasmith
 
 #### 개발 계획
 
-* (11/12) 코드페어 신청서 제출
-* (11/15) 3차 해커톤
+~~* (11/12) 코드페어 신청서 제출~~
+~~* (11/15) 3차 해커톤~~
 
 　  
 
