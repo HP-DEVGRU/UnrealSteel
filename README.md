@@ -123,6 +123,20 @@
 
 　  
 
+### Third Hackerthon
+
+#### TODO
+
+* Put skeletons on modeled character
+* Get 2d joint coordination from source video
+* Adjust Motion capture plug-in to ours methods
+
+
+
+
+
+
+
 ## Reference
 
 ### 논문
