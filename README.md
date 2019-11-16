@@ -146,10 +146,8 @@
 
 * Sample 2D joint coordination -> 3D joint coordination
 * Extract 2D joint coordination from live cam using tensorflow 2.0 lite
-
-![output](outpu1.gif)
-
-![output](output2.jpg)
+* ![output](outpu1.gif)  
+* ![output](output2.jpg)
 
 #### 계발계획
 
@@ -178,7 +176,7 @@
 
 * Result
 
-  <img src="output_livelink.gif" alt="image" style="zoom:150%;" />
+  <img src="output_livelink.gif" alt="image" style="zoom:200%;" />
 
 
 
