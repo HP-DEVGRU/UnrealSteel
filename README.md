@@ -210,6 +210,8 @@
 
 [MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
 
+[MVN MAYA live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Maya_live_plug-in_User_Manual.pdf)  
+
 [MAYA 애니메이션 예제들](https://www.turbosquid.com/)  
 
 [Unreal Engine 4.23 - MAYA 2019 Live Link Plug-in(겨우찾음)](https://github.com/ue4plugins/MayaLiveLink/releases)  
