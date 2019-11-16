@@ -149,9 +149,7 @@
 
 ![output](outpu1.gif)
 
-
-
-<img src="output2.jpg" alt="image" style="zoom:30%;" />
+![output](output2.jpg)
 
 #### 계발계획
 
