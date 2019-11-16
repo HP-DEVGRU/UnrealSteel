@@ -166,6 +166,24 @@
 * Retrieving motion capture plug-in and adjust to our methods
 * Try Live link function in Unreal Engine
 
+#### Live Link from MAYA to Unreal Engine
+
+* Sooooooo hard to do it because of less information..
+
+* Get hint from [Xsens MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
+
+* You have to get proper version of [MAYA's live link plug-in file](https://github.com/ue4plugins/MayaLiveLink/releases), which is so hard to find
+
+* Problem : It didn't support convert from MAYA's world coordination to UE4's world coordination so I have to translate manually
+
+* Result
+
+  <img src="output_livelink.gif" alt="image" style="zoom:150%;" />
+
+
+
+
+
 
 
 ## Reference
@@ -217,6 +235,8 @@
 [차근차근 알아보는 언리얼 엔진 - 언리얼 엔진 공식 튜토리얼]( https://www.youtube.com/watch?v=sYqbaAhdTzk&list=PLkHDai4yit5Xm9912XjC6c4TCuI3IX-Mh )  
 
 [How to Use Maya's Quick Rig tool](https://www.youtube.com/watch?v=J4SNTE9ld0o)  
+
+[Connectiong Maya to Unreal with Live Link](https://www.youtube.com/watch?v=0wQhM8vcdJQ&t=368s)  
 
 　  
 
