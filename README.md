@@ -118,8 +118,8 @@
 
 #### 개발 계획
 
-~~* (11/12) 코드페어 신청서 제출~~
-~~* (11/15) 3차 해커톤~~
+* ~~(11/12) 코드페어 신청서 제출~~
+* ~~(11/15) 3차 해커톤~~
 
 　  
 
@@ -140,14 +140,23 @@
 
 * Blender -> too many errors because of too latest version
 * Motion Builder -> need too many skeleton such as fingers(20 ea) and toes(20 ea)
-* Maya -> 
+* Maya -> Automatically create joint and easy to edit. So as Synchronize.
 
 #### Successfully Converting 2D coordination to 3D coordination
 
 * Sample 2D joint coordination -> 3D joint coordination
 * Trying to extract 2D joint coordination from live cam using tensorflow 2.0 lite
 
+![output](outpu1.gif)
 
+
+
+<img src="output2.jpg" alt="image" style="zoom:15%;" />
+
+#### 계발계획
+
+* ~~(11/16) 4차 개별 해커톤~~
+* (11/17) PPT 최종본 제작
 
 
 
