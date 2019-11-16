@@ -151,7 +151,7 @@
 
 
 
-<img src="output2.jpg" alt="image" style="zoom:15%;" />
+<img src="output2.jpg" alt="image" style="zoom:30%;" />
 
 #### 계발계획
 
