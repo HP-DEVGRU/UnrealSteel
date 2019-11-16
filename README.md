@@ -123,13 +123,29 @@
 
 　  
 
-### Third Hackerthon
+### Third Hackerthon( 11/15~ 11/16 )
 
 #### TODO
 
 * Put skeletons on modeled character
 * Get 2d joint coordination from source video
 * Adjust Motion capture plug-in to ours methods
+
+#### Overlay Skeleton on character
+
+* Using 3D Max
+* Export .max file and convert to .fbx file to easily import to other program
+
+#### Searching proper tools for motion tracking animation synchronizer
+
+* Blender -> too many errors because of too latest version
+* Motion Builder -> need too many skeleton such as fingers(20 ea) and toes(20 ea)
+* Maya -> 
+
+#### Successfully Converting 2D coordination to 3D coordination
+
+* Sample 2D joint coordination -> 3D joint coordination
+* Trying to extract 2D joint coordination from live cam using tensorflow 2.0 lite
 
 
 
