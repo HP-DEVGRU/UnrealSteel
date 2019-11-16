@@ -145,7 +145,7 @@
 #### Successfully Converting 2D coordination to 3D coordination
 
 * Sample 2D joint coordination -> 3D joint coordination
-* Trying to extract 2D joint coordination from live cam using tensorflow 2.0 lite
+* Extract 2D joint coordination from live cam using tensorflow 2.0 lite
 
 ![output](outpu1.gif)
 
@@ -158,7 +158,15 @@
 * ~~(11/16) 4차 개별 해커톤~~
 * (11/17) PPT 최종본 제작
 
+　  
 
+### Forth Hackerthon( 11/15 ~ 11/16 )
+
+#### TODO
+
+* Transfer 3D joint coordination data from video to MAYA (file formatting)
+* Retrieving motion capture plug-in and adjust to our methods
+* Try Live link function in Unreal Engine
 
 
 
@@ -188,6 +196,8 @@
 
 [MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
 
+[MAYA 애니메이션 예제들](https://www.turbosquid.com/)  
+
 
 
 　  
@@ -205,6 +215,8 @@
 [쌩초보를 위한 언리얼엔진 강좌(level1)]( https://www.youtube.com/watch?v=7JtsGIjK0hM&list=PLtmQsn29mAv-PqbRIUKiRrDYSuXtOHb6S )  
 
 [차근차근 알아보는 언리얼 엔진 - 언리얼 엔진 공식 튜토리얼]( https://www.youtube.com/watch?v=sYqbaAhdTzk&list=PLkHDai4yit5Xm9912XjC6c4TCuI3IX-Mh )  
+
+[How to Use Maya's Quick Rig tool](https://www.youtube.com/watch?v=J4SNTE9ld0o)  
 
 　  
 
