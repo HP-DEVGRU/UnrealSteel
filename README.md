@@ -178,7 +178,10 @@
 
   <img src="output_livelink.gif" alt="image" style="zoom:200%;" />
 
+#### Should import joint coordination data in real time, but can't do with MAYA
 
+* Get back to the unreal engine and use Unreal CV.
+* There's a lot of Face rig examples that use Unreal CV in real time [(1)](https://www.youtube.com/watch?v=Ac8v_HmaIfg), [(2)](https://www.youtube.com/watch?v=N_kxjflHT4w), and [(3)](https://www.youtube.com/watch?v=oeiqV247yBk).
 
 
 
