@@ -1,5 +1,5 @@
 # Unreal Steel
-**Just like REAL STEEL, Make 3D modeled character imitating user's motion using Unreal Engine**
+**Make 3D modeled character imitating user's motion in real time using Unreal Engine, just like REAL STEEL**
 
 ![image](main.jpg)
 
