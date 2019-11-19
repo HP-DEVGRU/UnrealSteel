@@ -183,7 +183,19 @@
 * Get back to the unreal engine and use Unreal CV.
 * There's a lot of Face rig examples that use Unreal CV in real time [(1)](https://www.youtube.com/watch?v=Ac8v_HmaIfg), [(2)](https://www.youtube.com/watch?v=N_kxjflHT4w), and [(3)](https://www.youtube.com/watch?v=oeiqV247yBk).
 
+　  
 
+### Final Hackerthon( 11/20 )
+
+Data : 11/20 Wed
+
+Time : 09:00 ~ 18:00 (at least 10)
+
+Location : Exco, grand ballroom B
+
+Be prepared : Laptop, Laptop and Laptop!! (+power)
+
+[Presentation](UnrealSteel.pdf)
 
 
 
