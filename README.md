@@ -280,10 +280,3 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 [PoseTrack Dataset - MPII + 비디오 데이터셋](https://eehoeskrap.tistory.com/341)     
     
 [State-of-art table for Pose Estimation on MPII Human Pose](https://paperswithcode.com/sota/pose-estimation-on-mpii-human-pose)
-
-
-
-
-
-추가해주세요 ㅇㅅㅇ
-
