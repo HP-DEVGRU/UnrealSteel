@@ -197,6 +197,12 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [Presentation](UnrealSteel.pdf)
 
+　  
+
+### Python - C++ Embedding Practice ( 12/31 )
+
+[정리내용](https://www.notion.so/casselkim/C-Python-fa1912cbe00443a4a1192f6a24edc58a)
+
 
 
 ## Reference
