@@ -203,6 +203,10 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [정리내용](https://www.notion.so/casselkim/C-Python-fa1912cbe00443a4a1192f6a24edc58a)
 
+### Socket Programming ( 01/02 )
+
+[소켓 프로그래밍](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)
+
 
 
 ## Reference
@@ -237,7 +241,7 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [Unreal Engine 4.23 - MAYA 2019 Live Link Plug-in(겨우찾음)](https://github.com/ue4plugins/MayaLiveLink/releases)  
 
-
+[소켓 프로그래밍](https://recipes4dev.tistory.com/153)
 
 　  
 
