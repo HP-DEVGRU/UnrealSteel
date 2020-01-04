@@ -205,7 +205,7 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 #### Socket Programming ( 01/02 ~ 01/03 )
 
-[소켓 프로그래밍 (Updated 01/03)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)
+[소켓 프로그래밍 (Updated 01/04)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)
 
 
 
