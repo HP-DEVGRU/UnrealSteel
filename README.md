@@ -203,10 +203,13 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [정리내용](https://www.notion.so/casselkim/C-Python-fa1912cbe00443a4a1192f6a24edc58a)
 
-#### Socket Programming ( 01/02 ~ 01/03 )
+#### Socket Programming ( 01/02 ~ 01/04 )
 
-[소켓 프로그래밍 (Updated 01/04)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)
+[소켓 프로그래밍 (Updated 01/04)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)  
 
+#### Unreal Engine Socket networking  ( 01/06 ~ )
+
+[언리얼 엔진 Networking](https://www.notion.so/casselkim/Socket-Networking-d57f494c17bb40f1a6faefca1f26ddb8)  
 
 
 ## Reference
