@@ -207,7 +207,7 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [소켓 프로그래밍 (Updated 01/04)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)  
 
-#### Unreal Engine Socket networking  ( 01/06 ~ 01/08 )
+#### Unreal Engine Socket networking  ( 01/06 ~ 01/09 )
 
 [언리얼 엔진 Networking](https://www.notion.so/casselkim/Socket-Networking-d57f494c17bb40f1a6faefca1f26ddb8)  
 
