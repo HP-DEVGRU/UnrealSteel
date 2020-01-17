@@ -215,7 +215,7 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 ![image](networking.gif)  
 
-### Unreal Engine Retargeting Manager ( 01/14 ~ 01/17 )  
+### Unreal Engine Retargeting Manager ( 01/14 ~ 01/18 )  
 
 [언리얼 엔진 리타게팅](https://www.notion.so/casselkim/Retargeting-Manager-9c905ff3b4a84f6db26e6d738e3fc169)  
 
