@@ -219,9 +219,13 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 [언리얼 엔진 리타게팅](https://www.notion.so/casselkim/Retargeting-Manager-9c905ff3b4a84f6db26e6d738e3fc169)  
 
-#### Performance  
+#### Retargeting  
 
 ![image](retargeting.gif)  
+
+#### Matching Bone  
+
+![image](bone.gif)  
 
 
 ## Reference
