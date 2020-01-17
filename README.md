@@ -215,15 +215,17 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 ![image](networking.gif)  
 
-### Unreal Engine Retargeting Manager ( 01/14 ~ 01/18 )  
+### Unreal Engine Retargeting Manager ( 01/14 ~ 01/17 )  
 
 [언리얼 엔진 리타게팅](https://www.notion.so/casselkim/Retargeting-Manager-9c905ff3b4a84f6db26e6d738e3fc169)  
 
-#### Retargeting  
+#### Performance  
 
 ![image](retargeting.gif)  
 
-#### Matching Bone  
+### Unreal Engine Bone Matching Process ( 01/18 )  
+
+#### Performance  
 
 ![image](bone.gif)  
 
