@@ -223,7 +223,7 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 ![image](retargeting.gif)  
 
-### Unreal Engine Bone Matching Process ( 01/18 ~ 01/20 )  
+### Unreal Engine Bone Matching Process ( 01/18 ~ 01/21 )  
 
 #### Performance  
 
