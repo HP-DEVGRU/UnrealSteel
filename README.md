@@ -229,7 +229,8 @@ Be prepared : Laptop, Laptop and Laptop!! (+power)
 
 ![image](bone.gif)  
 
-### Adapting Openpose to unreal steel 
+### ~~Adapting Openpose to unreal steel ~~
+### Set up unreal engine environment on window server ( 04/11 )
 
 
 ## Reference
