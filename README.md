@@ -1,304 +1,84 @@
-# Unreal Steel
-**Make 3D modeled character imitating user's motion in real time using Unreal Engine, just like REAL STEEL**
+# UNREAL STEEL
 
-![image](main.jpg)
+상태: 중단
+종류: 팀
+포지션: 개발, 기획, 아이디어, 팀장
 
-![image](main2.jpg)
+[https://github.com/HP-DEVGRU/UnrealSteel](https://github.com/HP-DEVGRU/UnrealSteel)
 
-# What we need
+# Introduction
 
-## #1 Motion Tracking
+기존의 하드웨어 기반 모션 캡쳐 기술을 비전 AI으로 구현한 서비스입니다. 카메라로 사용자의 모션을 인식하고 이를 3D로 복원, 실시간 motion data를 애니메이션화하여 rigging 작업을 거쳐  게임엔진에 렌더링시킵니다. 사용자는 자신의 동작대로 가상의 캐릭터를 조종할 수 있습니다.  
 
-<img src="03.jpg" alt="image" style="zoom:150%;" />
+# Motivation
 
-## #2 3D Modeling
+**Unreal Steel : Unreal Engine + Real steel**  
 
-<img src="02.jpg" alt="image" style="zoom:200%;" />
+**Unreal Engine(게임엔진) ** 
 
-## #3 Real-time render-able environment
+![UNREAL%20STE%20b58db/unreal-for-motion-designer-2.gif](images/unreal-for-motion-designer-2.gif)  
 
-<img src="01.jpg" alt="image" style="zoom:200%;" />
+**Real Steel (영화)**  
 
-　  
+![UNREAL%20STE%20b58db/MaxAtom.gif](images/MaxAtom.gif)  
 
-## Result
+영화 속 장면을 게임엔진으로 구현해보고자 시작하게 되었습니다.  
 
-### First Hackerthon( 11/01 ~ 11/02 )
+# Main Technology
 
-논문 리딩 및 관련 분야 지식 습득
+## Previous Motion Capture
 
-* A simple yet effective baseline for 3d human pose estimation
-* Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image
-* Simple Baselines for Human Pose Estimation and Tracking
-* 딥러닝을 이용한 2D, 3D Human Pose Estimation 가이드
+기존의 모션캡쳐 기술은 센서가 달린 수트와 헬멧을 쓰고 센서의 좌표 데이터를 수신하면서 이루어졌습니다. **하지만 모션캡쳐 장비와 소프트웨어들이 너무 비싸서** 높은 진입장벽이 형성되었습니다. 또한 배우가 직접 움직인 데이터만 얻을 수 있다는 단점이 있었습니다.  
 
-개발 방향 설정
+![UNREAL%20STE%20b58db/0cb2e38d5f7244125aedb72c2386b802.gif](images/0cb2e38d5f7244125aedb72c2386b802.gif)  
 
-* 2D Pose estimation -> 3D transfer -> Predict 3D Pose estimation
-* 3D Joint point detect -> Synchronize with modeled character on Unreal Engine
-* 2D Pose estimation : Tensorflow / PoseNET
-* 3D Transfer : A simple yet effective baseline for 3d human pose estimation
+![UNREAL%20STE%20b58db/8f02eb1cff9d643eb370802eac703cbf.gif](images/8f02eb1cff9d643eb370802eac703cbf.gif)  
 
-개발 계획
+![UNREAL%20STE%20b58db/304f7bd122687db3c1db0f1d3c96d8ca.gif](images/304f7bd122687db3c1db0f1d3c96d8ca.gif)  
 
-* ~~(11/05) 팀빌딩~~
-* ~~(11/06) 팀 회의 및 개발 방향 재설정~~
-* ~~(11/08) 2차해커톤~~
+## Ours
 
-　  
+저희 Unreal Steel은 사용자가 카메라 하나만 있으면 그 자리에서 즉시 모션캡쳐 기술을 사용할 수 있도록 해줍니다. 심지어 모션이 담긴 유튜브 영상으로도 움직임을 캡쳐할 수 있습니다. 이는 일반 사용자에게 face app같은 컨텐츠 제공용으로 쓰일 수도 있고 컨텐츠 크리에이터에게 더 다양한 컨텐츠를 제작할 수 있도록 도와주는 툴이 될 것입니다.  
 
-### Second Hackerthon( 11/08 ~ 11/09 )
+![UNREAL%20STE%20b58db/ezgif-6-c7ce93a8df3c.gif](images/ezgif-6-c7ce93a8df3c.gif)  
 
-#### 게임 엔진 입문
+![순서 : 위(좌→우)→아래(우→좌)](images/output_livelink.gif)  
 
-* 언리얼 엔진 튜토리얼 영상 
+순서 : 위(좌→우)→아래(우→좌)  
 
-  * 차근차근 알아보는 언리얼 엔진
-  * 초보를 위한 언리얼 엔진 4 강좌
+# **Goals**
 
-* 언리얼 엔진 tools 사용법
+## From
 
-* 블루프린트의 사용
+![UNREAL%20STE%20b58db/tenor_(1).gif](images/tenor_(1).gif)  
 
-* GALAXY Note 10 - Google ARCore - Unreal Engine 연동
+## To
 
-  <img src="AR1.png" alt="image" style="zoom:50%;" /> 
+![UNREAL%20STE%20b58db/tenor.gif](images/tenor.gif)  
 
-#### 캐릭터 3D 모델링
+**In Real-Time!!**
 
-* 라이노를 이용한 캐릭터 '고고' 모델링
+# Achievement
 
-* 라이노 - 언리얼 엔진 간의 Format transformation ( Unreal Datasmith )
+![UNREAL%20STE%20b58db/Untitled.png](images/Untitled.png)  
 
-  ![image](Modelling.png)
+# Now
 
-#### Pose Estimation 모델 Fitting by Tensorflow2.0
+현재 프로젝트는 중지되었습니다. 좌표를 retargetting하는 과정에서 지속적인 오류가 발생합니다.  
 
-* 2D Joint coordinates -> 3D Joint coordinates
-* Structure
-  * Linear 1024
-  * Batch normalization
-  * RELU
-  * Dropout 0.5
-  * Linear 1024
-  * Batch normalization
-  * RELU
-  * Dropout 0.5
-* Total Accuracy : 0.87
-* represented as **3D Camera Coordinate**, which is **zero-centered on hip joint**
+1. **bone의 개수와 위치가 다릅니다**. 논문으로 구현해서 복원한 3D 좌표는 16개인데 반해 언리얼 엔진은 최소 18개를 요구합니다. 또한 bone retargetting을 구현하기 위해서는 T자 포즈를 취하고 동기화하는 과정이 필요한데 우리의 모델은 일반 포즈를 복원한 것이기 때문에 T자 포즈를 취할 수 없습니다.
+2. **디버깅이 너무 힘듭니다.** Unreal Engine은 오류가 발생하면 오류가 발생했다고 report 한 뒤 종료됩니다. log를 남겨도 피상적인 내용만 report하고 내부에서 어떻게 동작되는지 알 수 없습니다.
+3. **커뮤니티가 없습니다.** 저희와 같은 프로젝트를 진행한 사람은 한명도 없으며 언리얼 엔진 개발자 커뮤니티 또한 활발하지 않아 자료도 없고 레퍼런스도 없고 아무것도 없습니다. 심지어 언리얼 엔진은 거의 한달마다 새로운 버전을 출시하기 때문에 여러 프로그램에 종속성이 있는 환경에서 개발이 불가능에 가깝습니다. (있는 자료들마저 버전이 모두 다름)
+4. **인원이 없습니다**. 프로젝트 인원이 총 3명이었는데 1명은 캐릭터 디자인(게임 엔진에서 나를 따라할 캐릭터), 1명은 예측 모델 모델링 (모션캡쳐, 3D 좌표 복원)을 담당하였고, 나머지 부분(추출된 3D 좌표를 애니메이션화, 리깅 작업, T-pose synchronize, 데이터 통신 등)을 제가 담당했습니다. 해당 도메인 지식이 전무한 상태에서 도메인 지식을 쌓느라 개발을 진행할 수 없게 되고 이는 개발기간의 연장으로 이어졌습니다.
 
-#### 프레젠테이션 준비
+![애니메이션화까진 구현한 모습](images/output.gif)  
 
-* 첫번째장 : 인트로 / 조이름, 프로젝트 네임, 조원의 정보
+애니메이션화까진 구현한 모습  
 
-* 두번째장 : 기존 방법과의 비교 사진
+![언리얼 엔진 캐릭터와 동기화에 실패한 모습](images/ezgif-6-e7acb2e5592c.gif)  
 
-* 세번째장 : 기술 세부 설명 (흐름도)
+언리얼 엔진 캐릭터와 동기화에 실패한 모습  
 
-* 네번째장 : 사업 확장성, 적용 가능 시장 소개 및 기대효과
+# Development Documents
 
-* 마지막장 : 마무리 인사
-
-  ![Image](Process.png)
-
-#### 개발 방향 재설정
-
-* Export from Google AR plug-in (ARCore) to Tensorflow model
-
-* Adjust 3D Joint Coordinates as World coordinate from Camera coordinates
-
-  (+ How can we transfer from Phone -> ARCore -> Tensorflow -> Unreal Engine -> ARCore -> Phone?)
-
-  * Use Maya or Motion Builder : Maya and Motion Builder support Python scripts  
-    * Phone -> Maya or MoBu (Tensorflow + Animation) -> Unreal Engine Live link -> ARCore -> Phone
-  * Use just Unreal Engine : Unreal Engine also supports not only c#, but also python  
-    * Phone -> ARCore -> Unreal Engine (Tensorflow + Animation + Synthesize) -> ARCore -> Phone
-
-* Transformat Rhino Model to Unreal Engine Using Datasmith
-
-#### 개발 계획
-
-* ~~(11/12) 코드페어 신청서 제출~~
-* ~~(11/15) 3차 해커톤~~
-
-　  
-
-### Third Hackerthon( 11/15~ 11/16 )
-
-#### TODO
-
-* Put skeletons on modeled character
-* Get 2d joint coordination from source video
-* Adjust Motion capture plug-in to ours methods
-
-#### Overlay Skeleton on character
-
-* Using 3D Max
-* Export .max file and convert to .fbx file to easily import to other program
-
-#### Searching proper tools for motion tracking animation synchronizer
-
-* Blender -> too many errors because of too latest version
-* Motion Builder -> need too many skeleton such as fingers(20 ea) and toes(20 ea)
-* Maya -> Automatically create joint and easy to edit. So as Synchronize.
-
-#### Successfully Converting 2D coordination to 3D coordination
-
-* Sample 2D joint coordination -> 3D joint coordination
-* Extract 2D joint coordination from live cam using tensorflow 2.0 lite
-* ![output](outpu1.gif)  
-* ![output](output2.jpg)
-
-#### 계발계획
-
-* ~~(11/16) 4차 개별 해커톤~~
-* (11/17) PPT 최종본 제작
-
-　  
-
-### Fourth Hackerthon( 11/15 ~ 11/16 )
-
-#### TODO
-
-* Transfer 3D joint coordination data from video to MAYA (file formatting)
-* Retrieving motion capture plug-in and adjust to our methods
-* Try Live link function in Unreal Engine
-
-#### Live Link from MAYA to Unreal Engine
-
-* Sooooooo hard to do it because of less information..
-
-* Get hint from [Xsens MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
-
-* You have to get proper version of [MAYA's live link plug-in file](https://github.com/ue4plugins/MayaLiveLink/releases), which is so hard to find
-
-* Problem : It didn't support convert from MAYA's world coordination to UE4's world coordination so I have to translate manually
-
-* Result
-
-  <img src="output_livelink.gif" alt="image" style="zoom:200%;" />
-
-#### Should import joint coordination data in real time, but can't do with MAYA
-
-* Get back to the unreal engine and use Unreal CV.
-* There's a lot of Face rig examples that use Unreal CV in real time [(1)](https://www.youtube.com/watch?v=Ac8v_HmaIfg), [(2)](https://www.youtube.com/watch?v=N_kxjflHT4w), and [(3)](https://www.youtube.com/watch?v=oeiqV247yBk).
-　  
-
-### Python - C++ Embedding Practice ( 12/31 )
-
-[정리내용](https://www.notion.so/casselkim/C-Python-fa1912cbe00443a4a1192f6a24edc58a)
-
-### Socket Programming ( 01/02 ~ 01/04 )
-
-[소켓 프로그래밍 (Updated 01/04)](https://www.notion.so/casselkim/Socket-Programming-116f303b3ee64ea88b86487841b32c0b)  
-
-### Unreal Engine Socket networking  ( 01/06 ~ 01/13 )
-
-[언리얼 엔진 Networking](https://www.notion.so/casselkim/Socket-Networking-d57f494c17bb40f1a6faefca1f26ddb8)  
-
-#### Performance  
-
-![image](networking.gif)  
-
-### Unreal Engine Retargeting Manager ( 01/14 ~ 01/17 )  
-
-[언리얼 엔진 리타게팅](https://www.notion.so/casselkim/Retargeting-Manager-9c905ff3b4a84f6db26e6d738e3fc169)  
-
-#### Performance  
-
-![image](retargeting.gif)  
-
-### Unreal Engine Bone Matching Process  
-
-#### Performance  
-
-![image](bone.gif)  
-
-### ~~Adapting Openpose to unreal steel~~
-### Set up unreal engine environment on window server ( 04/11 )
-
-
-## Reference
-
-### 논문
-
-[A simple yet effective baseline for 3d human pose estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Martinez_A_Simple_yet_ICCV_2017_paper.pdf)  
-
-[Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image](https://arxiv.org/pdf/1907.11346.pdf)
-
-[Simple Baselines for Human Pose Estimation and Tracking](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bin_Xiao_Simple_Baselines_for_ECCV_2018_paper.pdf)  
-
-　  
-
-### 참고 포스팅
-
-[엔비디아 - real-time ray tracing and AI-based pose estimation](https://blogs.nvidia.com/blog/2019/07/30/nvidia-rtx-apollo-11-demo/?ncid=so-you-p3-97929)  
-
-[딥러닝을 이용한 2D Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-2d-guide/)  
-
-[딥러닝을 이용한 3D Human Pose Estimation 가이드](https://nanonets.com/blog/human-pose-estimation-3d-guide/)  
-
-[페이스북 - Full body ar with mask R-CNN](https://research.fb.com/enabling-full-body-ar-with-mask-r-cnn2go/)  
-
-[OpenPose + 3D Pose Baseline](http://akasuku.blog.jp/archives/73745862.html)  
-
-[MVN Unreal live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Unreal_live_plug-in_User_Manual.pdf)  
-
-[MVN MAYA live plug-in tutorial](https://www.xsens.com/hubfs/Downloads/Manuals/MVN_Maya_live_plug-in_User_Manual.pdf)  
-
-[MAYA 애니메이션 예제들](https://www.turbosquid.com/)  
-
-[Unreal Engine 4.23 - MAYA 2019 Live Link Plug-in(겨우찾음)](https://github.com/ue4plugins/MayaLiveLink/releases)  
-
-[소켓 프로그래밍](https://recipes4dev.tistory.com/153)  
-
-[파이썬 소켓 프로그래밍](https://webnautes.tistory.com/1381)  
-
-[C++ 소켓 프로그래밍](https://jaimemin.tistory.com/6)  
-　  
-
-### 영상
-
-[OpenPose + 3D Pose Baseline](https://www.youtube.com/watch?v=8kT-KFkG5dE)  
-
-[오큘러스 - hand-tracking in VR](https://www.youtube.com/watch?v=hPIs-h9uevM&feature=youtu.be)  
-
-[페이스북 - Full body ar with mask R-CNN](https://www.facebook.com/groups/BioAI/permalink/399762017292196?sfns=mo)  
-
-[A simple yet effective baseline for 3d human pose estimation](https://youtu.be/Hmi3Pd9x1BE)  
-
-[쌩초보를 위한 언리얼엔진 강좌(level1)]( https://www.youtube.com/watch?v=7JtsGIjK0hM&list=PLtmQsn29mAv-PqbRIUKiRrDYSuXtOHb6S )  
-
-[차근차근 알아보는 언리얼 엔진 - 언리얼 엔진 공식 튜토리얼]( https://www.youtube.com/watch?v=sYqbaAhdTzk&list=PLkHDai4yit5Xm9912XjC6c4TCuI3IX-Mh )  
-
-[How to Use Maya's Quick Rig tool](https://www.youtube.com/watch?v=J4SNTE9ld0o)  
-
-[Connectiong Maya to Unreal with Live Link](https://www.youtube.com/watch?v=0wQhM8vcdJQ&t=368s)  
-
-　  
-
-### 깃허브
-
-[**Openpose : 2D & 3D pose, face, hand and foot estimation**](https://github.com/CMU-Perceptual-Computing-Lab/openpose#output)  
-
-[마이크로소프트 - multiview-human-pose-estimation-pytorch](https://github.com/microsoft/multiview-human-pose-estimation-pytorch)  
-
-[3D Pose Baseline](https://github.com/una-dinosauria/3d-pose-baseline)  
-
-[3D Pose Estimation](https://github.com/llSourcell/3D_Pose_Estimation)  
-
-[Lifting-from-the-Deep-release](https://github.com/DenisTome/Lifting-from-the-Deep-release)  
-
-[3D Pose Estimation - output fixed](https://github.com/ArashHosseini/3d-pose-baseline)
-
-[언리얼 엔진 AR 개발 전 환경 세팅 방법](https://github.com/CasselKim/Programs/blob/master/In_Working/UnrealEngine/README.md)
-
-　  
-
-### 데이터셋
-
-[MPII Human Pose Dataset - 관절 주석이 달린 25,000개 이미지 데이터셋](http://human-pose.mpi-inf.mpg.de/)  
-
-[PoseTrack Dataset - MPII + 비디오 데이터셋](https://eehoeskrap.tistory.com/341)     
-    
-[State-of-art table for Pose Estimation on MPII Human Pose](https://paperswithcode.com/sota/pose-estimation-on-mpii-human-pose)
+[개발일지](https://www.notion.so/e4677b69256741b285abf4c7cf6070d0)
