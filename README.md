@@ -1,8 +1,8 @@
 # UNREAL STEEL
 
-상태: 중단
-종류: 팀
-포지션: 개발, 기획, 아이디어, 팀장
+상태: 중단  
+종류: 팀  
+포지션: 개발, 기획, 아이디어, 팀장  
 
 [https://github.com/HP-DEVGRU/UnrealSteel](https://github.com/HP-DEVGRU/UnrealSteel)
 
@@ -14,13 +14,13 @@
 
 **Unreal Steel : Unreal Engine + Real steel**  
 
-**Unreal Engine(게임엔진) ** 
+**Unreal Engine(게임엔진)**  
 
-![UNREAL%20STE%20b58db/unreal-for-motion-designer-2.gif](images/unreal-for-motion-designer-2.gif)  
+![UNREAL%20STE%20b58db/unreal-for-motion-designer-2.gif](images/unreal-for-motion-designer-2.gif)
 
 **Real Steel (영화)**  
 
-![UNREAL%20STE%20b58db/MaxAtom.gif](images/MaxAtom.gif)  
+![UNREAL%20STE%20b58db/MaxAtom.gif](images/MaxAtom.gif)
 
 영화 속 장면을 게임엔진으로 구현해보고자 시작하게 되었습니다.  
 
